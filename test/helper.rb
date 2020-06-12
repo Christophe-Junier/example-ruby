@@ -14,5 +14,9 @@ require 'mocha/setup'
 
 require 'awesome'
 
-class Test::Unit::TestCase
+module Test
+  module Unit
+    class TestCase
+    end
+  end
 end
